@@ -7,8 +7,8 @@ If you have no idea what this is, this short video will get you started: http://
 
 ## Tools
 Tools that are used include:
-- Bower for package manager
-- RequireJS for module loading/dependency management
+- [Bower](https://github.com/twitter/bower) for package management
+- [RequireJS](http://requirejs.org) for module loading/dependency management
 - A bash file for deploying with the RequireJS optimizer and for some cleanup
 
 Bower & RequireJS must be installed globaly via NPM like so:
