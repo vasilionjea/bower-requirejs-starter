@@ -37,7 +37,7 @@ The only srcipt tag that we add explicitly in the page is the following:
 
 
 ## Build Process/Deployment
-_"RequireJS includes [an optimization tool: http://requirejs.org/docs/optimization.html]
+_"RequireJS includes [an optimization tool](http://requirejs.org/docs/optimization.html)
 you can run as part of your packaging steps for deploying your code. The optimization 
 tool can combine and minify your JavaScript files to allow for better performance."_
 
