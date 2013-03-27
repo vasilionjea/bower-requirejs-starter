@@ -25,7 +25,7 @@ If you want to verify that they were installed, you can check via the following 
 
 ## Bower
 - The `directory:` key in the `.bowerrc` file tells Bower where to install "packages"
-- The `component.json` file under the app's root directory tells Bower what dependencies our applicaiton has so we can install them all with one command like so: `bower install`. NOTE: By specifying `null` for a version, we're asking for the latest version of that lib... I think!
+- The `component.json` file under the app's root directory tells Bower what dependencies our applicaiton has so we can install them all with one command like so: `bower install`. By specifying `null` for a version, we're asking for the latest version of that lib... I think!
  
 
 
