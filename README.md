@@ -16,7 +16,7 @@ Bower & RequireJS must be installed globaly via NPM like so:
     sudo npm install -g bower requirejs
 
 Note: 
-If you want to verify that they were installed, you can check via the following commands:
+If you want to verify that they were installed, you can check via the following commands after restarting the Terminal.app/iTerm.app:
 
     which bower #=> /usr/local/bin/bower
     which r.js  #=> /usr/local/bin/r.js
