@@ -11,7 +11,7 @@ Tools that are used include:
 - [RequireJS](http://requirejs.org) for module loading/dependency management
 - A bash file for deploying with the RequireJS optimizer and for some cleanup
 
-Bower & RequireJS must be installed globaly via NPM like so:
+Bower & RequireJS must be installed globaly via [NPM](https://npmjs.org/) like so:
 
     sudo npm install -g bower requirejs
 
