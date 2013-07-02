@@ -1,11 +1,11 @@
-# Bower - RequireJS starter template
+## Bower - RequireJS starter template
 
 A RequireJS starter template with the Bower package manager for medium to large size projects.
 
-Note: 
+**Note:** 
 If you have no idea what this is, this short video will get you started: http://goo.gl/XIwt9
 
-## Tools
+### Tools
 Tools that are used include:
 - [Bower](https://github.com/twitter/bower) for package management
 - [RequireJS](http://requirejs.org) for module loading/dependency management
@@ -15,7 +15,7 @@ Bower & RequireJS must be installed globally via [NPM](https://npmjs.org/) like 
 
     sudo npm install -g bower requirejs
 
-Note: 
+**Note:** 
 If you want to verify that they were installed, you can check via the following commands after restarting your Terminal/iTerm:
 
     which bower #=> /usr/local/bin/bower
@@ -23,20 +23,20 @@ If you want to verify that they were installed, you can check via the following 
 
 
 
-## Bower
+### Bower
 - The `directory:` key in the `.bowerrc` file tells Bower where to install the project "packages"
 - The `component.json` file under the app's root directory tells Bower what dependencies our applicaiton has so we can install them all with one command like so: `bower install`. By specifying `null` for a version, we're asking for the latest version of that lib... I think!
  
 
 
-## RequireJS
+### RequireJS
 The only srcipt tag that we add explicitly in the page is the following:
 
     <script src="js/vendor/require.js" data-main="js/app.js"></script>
 
 
 
-## Build Process/Deployment
+### Build Process/Deployment
 _"RequireJS includes [an optimization tool](http://requirejs.org/docs/optimization.html)
 you can run as part of your packaging steps for deploying your code. The optimization 
 tool can combine and minify your JavaScript files to allow for better performance."_
