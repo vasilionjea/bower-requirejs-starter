@@ -11,7 +11,7 @@ Tools that are used include:
 - [RequireJS](http://requirejs.org) for module loading/dependency management
 - A bash file for deploying with the RequireJS optimizer and for some cleanup
 
-Bower & RequireJS must be installed globaly via [NPM](https://npmjs.org/) like so:
+Bower & RequireJS must be installed globally via [NPM](https://npmjs.org/) like so:
 
     sudo npm install -g bower requirejs
 
@@ -24,7 +24,7 @@ If you want to verify that they were installed, you can check via the following 
 
 
 ## Bower
-- The `directory:` key in the `.bowerrc` file tells Bower where to install "packages"
+- The `directory:` key in the `.bowerrc` file tells Bower where to install the project "packages"
 - The `component.json` file under the app's root directory tells Bower what dependencies our applicaiton has so we can install them all with one command like so: `bower install`. By specifying `null` for a version, we're asking for the latest version of that lib... I think!
  
 
