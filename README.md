@@ -32,7 +32,7 @@ If you want to verify that they were installed, you can check via the following 
 ### RequireJS
 The only srcipt tag that we add explicitly in the page is the following:
 
-    <script src="js/vendor/require.js" data-main="js/app.js"></script>
+    <script src="js/vendor/require.js" data-main="js/main.js"></script>
 
 
 
