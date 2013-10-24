@@ -12,7 +12,7 @@ define(['jquery'], function ($) {
 	// Person methods
 	$.extend(Person.prototype, {
 		sayHello: function () {
-			var str = '<p>Hello <b>' + this.name + ' ' + this.lastname + '</b></p>';
+			var str = '<p>Hello <b>' + this.name + ' ' + this.lastname + '</b>!</p>';
 			$body.append(str);
 
 			return this;
